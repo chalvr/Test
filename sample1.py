@@ -4,4 +4,6 @@ if sample == "Yes":
     print("Check Again")
     print("Check Again and Again")
 else:
-    print("Are continue doing what you are doing ")
+    testcases = input("Enter the test cases")
+    if testcases == "Yes":
+        print("First case is passed")
